@@ -1,7 +1,7 @@
 export class AppError{
 
-  private readonly message: string;
-  private readonly statusCode: number;
+  public readonly message: string;
+  public readonly statusCode: number;
 
   constructor(message: string, statusCode: number = 400){
     this.message = message;
