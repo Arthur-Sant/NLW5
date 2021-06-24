@@ -1,5 +1,7 @@
-import { app } from "./app";
+import { http } from "./http";
+import "./websocket/client";
+import "./websocket/admin";
 
-app.listen(3333, () => {
+http.listen(3333, () => {
   console.log("rodando em http://localhost:3333/");
 }); 
